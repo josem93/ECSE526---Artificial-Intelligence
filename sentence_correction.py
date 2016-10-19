@@ -1,6 +1,6 @@
-import hmm
-from math import pow, factorial, exp;
-l = 0.01;
+import hmm;
+from math import pow;
+
 vocabFile = "data/vocab.txt";
 unigramFile = "data/unigram_counts.txt";
 bigramFile = "data/bigram_counts.txt";
@@ -55,7 +55,7 @@ def getTrigram(trigramFile):
 	return trigram;
 
 	
-vocab = fileToWords(vocabFile);				# Get all words from vocab.txt file
+vocab = fileToWords(vocabFile);				 # Get all words from vocab.txt file
 unigram = getUnigram(unigramFile);           # Get unigram probabilities from unigram.txt file
 bigram = getBigram(bigramFile);              # Get bigram conditional probabilities from bigram.txt file
 trigram = getTrigram(trigramFile);           # Get trigram conditional probabilities from trigram.txt file
@@ -73,6 +73,6 @@ hmmOrder = 1;
 hmm = hmm.HMM(vocab, unigram, bigram, trigram);
 #hmm.correctSentence(hmmOrder, s1);
 
-# run in batch
+# run for all sentence in batch format
 for i in range(len(sentences)):
 	hmm.correctSentence(hmmOrder, sentences[i]);

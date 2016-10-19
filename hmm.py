@@ -15,7 +15,7 @@ class HMM(object):
 		self.iter = 0;
 	
 	
-	
+	# Function to run the sentence correction process
 	def correctSentence(self, hmm, noisySentence):
 		print('Starting Correction...');
 		print();
@@ -35,7 +35,8 @@ class HMM(object):
 				if(hmm == 1 or self.iter == 1):
 					message = ['Noisy Word:', noisyWords[i]];
 					print(' '.join(message));
-					print('Possible Words:')
+					print('Possible Words:');
+					
 					#get sample of possible words based on bigram
 					key = self.stringToNum(correctWords[-1:]);
 					sample = self.getSample(key);
@@ -64,16 +65,7 @@ class HMM(object):
 					for w in range(len(sample)):
 						wordIndex = sample[w][1];
 						#get edit distance
-						k = self.levenshtein(noisyWords[i],self.words[wordIndex-1]);
-						#Pet_xt = (pow(self.lamda,k)*exp(self.lamda))/factorial(k);
-						#Pxt = self.unigram[sample[w][1]-1];
-						#Pxt = self.bigram[sample[w][1]-1][2];
-						#p = Pet_xt*Pxt;
-						#p = Pet_xt;
-						#if(p > m):
-						#	m = p;
-						#	maxIndex = w;
-						#Pxt_et.append(p);					
+						k = self.levenshtein(noisyWords[i],self.words[wordIndex-1]);					
 						if(k < m):
 							m = k;
 							minIndex = w;
@@ -97,7 +89,7 @@ class HMM(object):
 						Pxt = minDistances[w][2];
 						p = Pet_xt*Pxt;
 						Pxt_et0.append(p);
-					#print(Pxt_et0);
+
 					
 					mi0 = 0;
 					m0 = 0;
@@ -105,7 +97,6 @@ class HMM(object):
 						if(Pxt_et0[w] > m0):
 							m0 = Pxt_et0[w];
 							mi0 = w;
-					#print(mi0);
 					
 					#Checks the next min edit distance words
 					Pxt_et1 = [];
@@ -115,7 +106,6 @@ class HMM(object):
 						Pxt = secondToMinDistances[w][2];
 						p = Pet_xt*Pxt;
 						Pxt_et1.append(p);
-					#print(Pxt_et1);
 					
 					mi1 = 0;
 					m1 = 0;
@@ -123,7 +113,6 @@ class HMM(object):
 						if(Pxt_et1[w] > m1):
 							m1 = Pxt_et1[w];
 							mi1 = w;
-					#print(mi1);
 					
 					
 					self.output(hmm, minDistances, min(editDistances), Pxt_et0);
@@ -149,7 +138,7 @@ class HMM(object):
 					print();
 					self.iter += 1;
 					
-				"""elif(hmm == 2):
+				"""elif(hmm == 2):		# for a second order HMM
 					#get sample of possible words based on bigram
 					key = self.stringToNum(correctWords[-2:]);
 					sample = self.getSample(key);
@@ -178,16 +167,7 @@ class HMM(object):
 					for w in range(len(sample)):
 						wordIndex = sample[w][2];
 						#get edit distance
-						k = self.levenshtein(noisyWords[i],self.words[wordIndex-1]);
-						#Pet_xt = (pow(self.lamda,k)*exp(self.lamda))/factorial(k);
-						#Pxt = self.unigram[sample[w][1]-1];
-						#Pxt = self.bigram[sample[w][1]-1][2];
-						#p = Pet_xt*Pxt;
-						#p = Pet_xt;
-						#if(p > m):
-						#	m = p;
-						#	maxIndex = w;
-						#Pxt_et.append(p);					
+						k = self.levenshtein(noisyWords[i],self.words[wordIndex-1]);					
 						if(k < m):
 							m = k;
 							minIndex = w;
@@ -270,7 +250,7 @@ class HMM(object):
 		print('Correction Done...');
 	
 	
-	# function to display the annotated output of each possible word
+	# Function to display the annotated output of each possible word
 	def output(self, hmm, distances, d, probs):
 		if(hmm == 1 or self.iter == 1):
 			for i in range(len(distances)):
@@ -305,6 +285,7 @@ class HMM(object):
 		return list;
 	
 	
+	# Function to get the key number(s) from the word string(s)
 	def stringToNum(self, strings):
 		key = [];
 		for i in range(len(strings)):
@@ -316,10 +297,8 @@ class HMM(object):
 		return key;
 		
 	
-	
 	#Dynamic Programming algorithm to compute the Levenshtein distance between two strings
 	#Obtained from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python
-	
 	def levenshtein(self, s1, s2):
 		if len(s1) < len(s2):
 			return self.levenshtein(s2, s1);

@@ -30,7 +30,7 @@ class MarkovModel(object):
 		
 		return list;
 	
-	
+	# Function to obtain the new word given a list of possible next words
 	def getNewWord(self, sample):
 		# get Sps
 		order = len(sample[0])-2;
@@ -49,16 +49,12 @@ class MarkovModel(object):
 		elif(order == 0):
 			Sps = p;
 		
-		#print(Sps);
 		# create distribution and randomly sample from it.
 		maxProb = max(Sps);
 		randomVar = maxProb+1;
 		while(randomVar > maxProb or randomVar < 0):
 			randomVar = gauss(maxProb, maxProb);
 
-		#print('Random Variable');	
-		#print(randomVar);	
-		#print('----');
 		
 		#get value closest to random variable
 		m = 1;
@@ -69,8 +65,6 @@ class MarkovModel(object):
 				m = abs(Sps[i]-randomVar);
 				#print('new min');
 		
-		#print(len(sample));
-		#print(sampleIndex);
 		wordIndex = int(sample[sampleIndex][order]);
 		newWord = self.words[wordIndex-1];
 		return newWord;
@@ -87,7 +81,7 @@ class MarkovModel(object):
 					return self.bigram[i][2];
 					
 		
-	
+	# Function to get the key number(s) from the word string(s)
 	def stringToNum(self, strings):
 		key = [];
 		for i in range(len(strings)):
@@ -98,7 +92,8 @@ class MarkovModel(object):
 		
 		return key;
 		
-		
+	
+	# Function to run the text generation process
 	def generateText(self):
 		
 		# Set x0 = <s> (153 in vocab.txt)
@@ -108,13 +103,13 @@ class MarkovModel(object):
 		genWords = [x0];
 		numWords = 0;
 		
+		# Run loop until the the word "</s>" is obtained
 		while 1:
 			numWords += 1;
 			print('Word #' + str(numWords));
 			if(len(genWords) == 1):
 				# get next word from bigram_counts
 				key = self.stringToNum(genWords);
-				print(key);
 				sample = self.getSample(key);
 				newWord = self.getNewWord(sample);
 			
