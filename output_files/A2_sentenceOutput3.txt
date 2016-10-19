@@ -1,0 +1,44 @@
+Starting Correction...
+
+Noisy Word: She
+Possible Words:
+Word: She  -->  Edit Distance: 0 , Probability: 0.04890293724389431
+Word: See  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: The  -->  Edit Distance: 0 , Probability: 0.00034612737187947237
+Word: he  -->  Edit Distance: 0 , Probability: 6.428089942379482e-06
+Word: she  -->  Edit Distance: 0 , Probability: 6.428089942379482e-06
+Word: the  -->  Edit Distance: 0 , Probability: 5.4391488595005554e-06
+Noisy Word:  She  --> Correct Word:  She
+
+Noisy Word: was
+Possible Words:
+Word: was  -->  Edit Distance: 0 , Probability: 0.18404581428140374
+Word: has  -->  Edit Distance: 0 , Probability: 0.0001673142553249483
+Noisy Word:  was  --> Correct Word:  was
+
+Noisy Word: ulreedy
+Possible Words:
+Word: already  -->  Edit Distance: 2 , Probability: 1.0897853092853061e-07
+Word: agreed  -->  Edit Distance: 2 , Probability: 9.253855090379183e-11
+Word: ready  -->  Edit Distance: 2 , Probability: 6.35708025817465e-10
+Word: speedy  -->  Edit Distance: 2 , Probability: 1.0213902184615087e-11
+Word: urged  -->  Edit Distance: 2 , Probability: 1.0213902184615087e-11
+Noisy Word:  ulreedy  --> Correct Word:  already
+
+Noisy Word: quit
+Possible Words:
+Word: quite  -->  Edit Distance: 1 , Probability: 2.9894475962116876e-05
+Noisy Word:  quit  --> Correct Word:  quite
+
+Noisy Word: live
+Possible Words:
+Word: alive  -->  Edit Distance: 1 , Probability: 7.2356065764169705e-06
+Word: like  -->  Edit Distance: 1 , Probability: 2.6235777846254962e-05
+Word: given  -->  Edit Distance: 1 , Probability: 2.2487022226434092e-07
+Word: rave  -->  Edit Distance: 1 , Probability: 3.617803288208485e-08
+Noisy Word:  live  --> Correct Word:  like
+
+Corrected Sentence:
+<s> She was already quite like
+
+Correction Done...

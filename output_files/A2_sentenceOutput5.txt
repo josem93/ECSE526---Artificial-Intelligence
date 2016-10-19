@@ -1,0 +1,118 @@
+Starting Correction...
+
+Noisy Word: he
+Possible Words:
+Word: he  -->  Edit Distance: 0 , Probability: 0.0006428089942379482
+Word: Be  -->  Edit Distance: 0 , Probability: 2.0605347581313656e-06
+Word: He  -->  Edit Distance: 0 , Probability: 0.0003668951280175222
+Word: She  -->  Edit Distance: 0 , Probability: 0.0004890293724389432
+Word: The  -->  Edit Distance: 0 , Probability: 0.00034612737187947237
+Word: We  -->  Edit Distance: 0 , Probability: 6.0325085319864105e-05
+Word: her  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: she  -->  Edit Distance: 0 , Probability: 6.428089942379482e-06
+Word: the  -->  Edit Distance: 0 , Probability: 5.4391488595005554e-06
+Word: we  -->  Edit Distance: 0 , Probability: 6.049367166453338e-07
+Noisy Word:  he  --> Correct Word:  he
+
+Noisy Word: said
+Possible Words:
+Word: said  -->  Edit Distance: 0 , Probability: 0.017193763345235587
+Word: laid  -->  Edit Distance: 0 , Probability: 1.1375066514273313e-06
+Word: paid  -->  Edit Distance: 0 , Probability: 1.1375066514273313e-06
+Word: staid  -->  Edit Distance: 0 , Probability: 4.124515545490466e-06
+Noisy Word:  said  --> Correct Word:  said
+
+Noisy Word: nit
+Possible Words:
+Word: it  -->  Edit Distance: 1 , Probability: 0.00013416213005283719
+Word: not  -->  Edit Distance: 1 , Probability: 2.009749571874246e-05
+Word: Sir  -->  Edit Distance: 1 , Probability: 4.791516071237526e-07
+Word: at  -->  Edit Distance: 1 , Probability: 1.0048747859371229e-07
+Word: but  -->  Edit Distance: 1 , Probability: 1.6166832887849286e-08
+Word: his  -->  Edit Distance: 1 , Probability: 2.423700481644502e-07
+Word: in  -->  Edit Distance: 1 , Probability: 6.228965839567049e-07
+Word: no  -->  Edit Distance: 1 , Probability: 7.187269819664735e-07
+Word: now  -->  Edit Distance: 1 , Probability: 1.6166832887849286e-08
+Word: t  -->  Edit Distance: 1 , Probability: 1.6166832887849286e-08
+Word: with  -->  Edit Distance: 1 , Probability: 1.0048747859371229e-07
+Noisy Word:  nit  --> Correct Word:  it
+
+Noisy Word: word
+Possible Words:
+Word: for  -->  Edit Distance: 2 , Probability: 2.9948767144801834e-07
+Word: hard  -->  Edit Distance: 2 , Probability: 1.3570221895702851e-08
+Word: more  -->  Edit Distance: 2 , Probability: 1.2201351797010481e-07
+Word: told  -->  Edit Distance: 2 , Probability: 3.742552912567874e-09
+Word: were  -->  Edit Distance: 2 , Probability: 3.9931713744252807e-07
+Word: won  -->  Edit Distance: 2 , Probability: 2.3262423029692782e-08
+Word: worse  -->  Edit Distance: 2 , Probability: 3.742552912567874e-09
+Word: worth  -->  Edit Distance: 2 , Probability: 8.873704230618556e-08
+Word: would  -->  Edit Distance: 2 , Probability: 2.151874549633111e-06
+Word: Mr  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: Mrs  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: aloud  -->  Edit Distance: 2 , Probability: 1.1302608751813241e-10
+Word: and  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: are  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: cost  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: could  -->  Edit Distance: 2 , Probability: 2.033558612531925e-09
+Word: did  -->  Edit Distance: 2 , Probability: 9.613193728017931e-10
+Word: does  -->  Edit Distance: 2 , Probability: 6.655285557595417e-10
+Word: don  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: done  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Word: down  -->  Edit Distance: 2 , Probability: 1.5407624810031566e-10
+Word: end  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: found  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: go  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: goes  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: had  -->  Edit Distance: 2 , Probability: 3.2167232229355084e-09
+Word: her  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Word: here  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: home  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Word: hope  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: laid  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: lead  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: long  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: most  -->  Edit Distance: 2 , Probability: 1.5407624810031566e-10
+Word: need  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Word: no  -->  Edit Distance: 2 , Probability: 1.8702544399998636e-10
+Word: none  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: not  -->  Edit Distance: 2 , Probability: 5.915802879476054e-10
+Word: now  -->  Edit Distance: 2 , Probability: 5.546074440099321e-10
+Word: of  -->  Edit Distance: 2 , Probability: 3.697376652013327e-10
+Word: off  -->  Edit Distance: 2 , Probability: 4.806596816019653e-10
+Word: on  -->  Edit Distance: 2 , Probability: 4.806596816019653e-10
+Word: one  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: out  -->  Edit Distance: 2 , Probability: 4.806596816019653e-10
+Word: rare  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: so  -->  Edit Distance: 2 , Probability: 1.035265387850565e-09
+Word: solid  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: some  -->  Edit Distance: 2 , Probability: 1.5407624810031566e-10
+Word: soon  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Word: to  -->  Edit Distance: 2 , Probability: 5.13935591005193e-09
+Word: too  -->  Edit Distance: 2 , Probability: 3.32764274557435e-10
+Word: took  -->  Edit Distance: 2 , Probability: 1.1302608751813241e-10
+Word: very  -->  Edit Distance: 2 , Probability: 9.243441445459306e-10
+Word: was  -->  Edit Distance: 2 , Probability: 2.2812857854998635e-08
+Word: we  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: well  -->  Edit Distance: 2 , Probability: 1.1302608751813241e-10
+Word: went  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: what  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: when  -->  Edit Distance: 2 , Probability: 4.523407298567617e-11
+Word: will  -->  Edit Distance: 2 , Probability: 3.1797479385260773e-09
+Word: wins  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: with  -->  Edit Distance: 2 , Probability: 1.663821356175496e-09
+Word: wrong  -->  Edit Distance: 2 , Probability: 1.2475176375226249e-11
+Word: you  -->  Edit Distance: 2 , Probability: 7.754141009897594e-11
+Noisy Word:  word  --> Correct Word:  would
+
+Noisy Word: by
+Possible Words:
+Word: by  -->  Edit Distance: 0 , Probability: 0.00020370418188814644
+Word: be  -->  Edit Distance: 0 , Probability: 0.002408906507356807
+Word: buy  -->  Edit Distance: 0 , Probability: 7.386163973853044e-06
+Noisy Word:  by  --> Correct Word:  be
+
+Corrected Sentence:
+<s> he said it would be
+
+Correction Done...

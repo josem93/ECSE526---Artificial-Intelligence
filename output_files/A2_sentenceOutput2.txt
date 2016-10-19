@@ -1,0 +1,42 @@
+Starting Correction...
+
+Noisy Word: she
+Possible Words:
+Word: she  -->  Edit Distance: 0 , Probability: 0.0006428089942379482
+Word: She  -->  Edit Distance: 0 , Probability: 0.0004890293724389432
+Word: The  -->  Edit Distance: 0 , Probability: 0.00034612737187947237
+Word: he  -->  Edit Distance: 0 , Probability: 6.428089942379482e-06
+Word: the  -->  Edit Distance: 0 , Probability: 5.4391488595005554e-06
+Noisy Word:  she  --> Correct Word:  she
+
+Noisy Word: haf
+Possible Words:
+Word: had  -->  Edit Distance: 1 , Probability: 0.0014495391342814472
+Word: has  -->  Edit Distance: 1 , Probability: 0.00013621531681078675
+Word: a  -->  Edit Distance: 1 , Probability: 2.6950073201790082e-08
+Word: an  -->  Edit Distance: 1 , Probability: 4.335837020353977e-09
+Word: at  -->  Edit Distance: 1 , Probability: 1.57214264819668e-08
+Word: can  -->  Edit Distance: 1 , Probability: 1.5420624043780719e-07
+Word: have  -->  Edit Distance: 1 , Probability: 1.156546101859176e-07
+Word: lay  -->  Edit Distance: 1 , Probability: 4.335837020353977e-09
+Word: may  -->  Edit Distance: 1 , Probability: 2.1845850091562056e-07
+Word: ran  -->  Edit Distance: 1 , Probability: 2.6950073201790082e-08
+Word: sat  -->  Edit Distance: 1 , Probability: 2.3130922268123875e-07
+Word: saw  -->  Edit Distance: 1 , Probability: 6.296742726155134e-07
+Word: say  -->  Edit Distance: 1 , Probability: 4.335837020353977e-09
+Word: was  -->  Edit Distance: 1 , Probability: 6.2710454612284865e-06
+Noisy Word:  haf  --> Correct Word:  had
+
+Noisy Word: heard
+Possible Words:
+Word: heard  -->  Edit Distance: 0 , Probability: 0.0075376843144475784
+Noisy Word:  heard  --> Correct Word:  heard
+
+Noisy Word: them
+Possible Words:
+Word: them  -->  Edit Distance: 0 , Probability: 0.00469849690182577
+Word: the  -->  Edit Distance: 0 , Probability: 0.0006528838785124898
+Noisy Word:  them  --> Correct Word:  them
+
+Corrected Sentence:
+<s> she had heard them

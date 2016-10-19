@@ -1,0 +1,68 @@
+Starting Correction...
+
+Noisy Word: I
+Possible Words:
+Word: I  -->  Edit Distance: 0 , Probability: 0.06151187209139015
+Word: "  -->  Edit Distance: 0 , Probability: 0.003070152476088501
+Word: '  -->  Edit Distance: 0 , Probability: 3.659063486923479e-05
+Word: (  -->  Edit Distance: 0 , Probability: 4.450214503818509e-06
+Word: )  -->  Edit Distance: 0 , Probability: 5.933622937057918e-06
+Word: ,  -->  Edit Distance: 0 , Probability: 1.0369980621505742e-06
+Word: .  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: >  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: A  -->  Edit Distance: 0 , Probability: 9.098209749807007e-05
+Word: E  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: If  -->  Edit Distance: 0 , Probability: 6.873104464599276e-05
+Word: In  -->  Edit Distance: 0 , Probability: 7.911483830705412e-05
+Word: Is  -->  Edit Distance: 0 , Probability: 1.1867245992599039e-05
+Word: It  -->  Edit Distance: 0 , Probability: 0.0002956922519501402
+Word: W  -->  Edit Distance: 0 , Probability: 1.668364517692345e-07
+Word: [  -->  Edit Distance: 0 , Probability: 1.0369980621505742e-06
+Word: ]  -->  Edit Distance: 0 , Probability: 1.0369980621505742e-06
+Word: `  -->  Edit Distance: 0 , Probability: 1.7306368421185923e-05
+Word: a  -->  Edit Distance: 0 , Probability: 2.9270823759603295e-06
+Noisy Word:  I  --> Correct Word:  I
+
+Noisy Word: think
+Possible Words:
+Word: think  -->  Edit Distance: 0 , Probability: 0.03155403804417757
+Word: thank  -->  Edit Distance: 0 , Probability: 2.562765948125538e-05
+Noisy Word:  think  --> Correct Word:  think
+
+Noisy Word: hat
+Possible Words:
+Word: at  -->  Edit Distance: 1 , Probability: 1.6743951016151573e-05
+Word: has  -->  Edit Distance: 1 , Probability: 4.617840675341895e-06
+Word: that  -->  Edit Distance: 1 , Probability: 0.00036953020659557834
+Word: what  -->  Edit Distance: 1 , Probability: 2.8702911029738794e-05
+Word: a  -->  Edit Distance: 1 , Probability: 3.4614969171118565e-07
+Word: as  -->  Edit Distance: 1 , Probability: 2.3089203376709474e-08
+Word: he  -->  Edit Distance: 1 , Probability: 1.4370634678467254e-06
+Word: her  -->  Edit Distance: 1 , Probability: 1.0264739899318752e-06
+Word: him  -->  Edit Distance: 1 , Probability: 1.5739246935957305e-06
+Word: his  -->  Edit Distance: 1 , Probability: 8.371975508075786e-08
+Word: how  -->  Edit Distance: 1 , Probability: 7.527468540682807e-07
+Word: it  -->  Edit Distance: 1 , Probability: 5.063932978790873e-06
+Word: not  -->  Edit Distance: 1 , Probability: 2.3089203376709474e-08
+Word: was  -->  Edit Distance: 1 , Probability: 2.3089203376709474e-08
+Noisy Word:  hat  --> Correct Word:  that
+
+Noisy Word: twelve
+Possible Words:
+Word: twelve  -->  Edit Distance: 0 , Probability: 0.0
+Noisy Word:  twelve  --> Correct Word:  twelve
+
+Noisy Word: thousand
+Possible Words:
+Word: thousand  -->  Edit Distance: 0 , Probability: 0.020046887113584082
+Noisy Word:  thousand  --> Correct Word:  thousand
+
+Noisy Word: pounds
+Possible Words:
+Word: pounds  -->  Edit Distance: 0 , Probability: 0.5263637166582313
+Noisy Word:  pounds  --> Correct Word:  pounds
+
+Corrected Sentence:
+<s> I think that twelve thousand pounds
+
+Correction Done...

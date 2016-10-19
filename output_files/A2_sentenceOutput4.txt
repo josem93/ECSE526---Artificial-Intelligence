@@ -1,0 +1,47 @@
+Starting Correction...
+
+Noisy Word: John
+Possible Words:
+Word: John  -->  Edit Distance: 0 , Probability: 0.003955741875858373
+Noisy Word:  John  --> Correct Word:  John
+
+Noisy Word: Knightly
+Possible Words:
+Word: Knightley  -->  Edit Distance: 1 , Probability: 0.002297369996012457
+Word: Knightleys  -->  Edit Distance: 1 , Probability: 6.682284303957627e-08
+Noisy Word:  Knightly  --> Correct Word:  Knightley
+
+Noisy Word: wasn’t
+Possible Words:
+Word: cannot  -->  Edit Distance: 3 , Probability: 1.4601406588740513e-10
+Word: was  -->  Edit Distance: 3 , Probability: 6.491330097113997e-09
+Word: and  -->  Edit Distance: 3 , Probability: 1.731018475089602e-11
+Word: as  -->  Edit Distance: 3 , Probability: 3.650351647185129e-13
+Word: at  -->  Edit Distance: 3 , Probability: 3.650351647185129e-13
+Word: has  -->  Edit Distance: 3 , Probability: 1.3235906881449662e-12
+Word: meant  -->  Edit Distance: 3 , Probability: 3.650351647185129e-13
+Word: must  -->  Edit Distance: 3 , Probability: 5.472549557881825e-12
+Word: not  -->  Edit Distance: 3 , Probability: 3.650351647185129e-13
+Word: warmly  -->  Edit Distance: 3 , Probability: 1.3235906881449662e-12
+Noisy Word:  wasn’t  --> Correct Word:  was
+
+Noisy Word: hard
+Possible Words:
+Word: hard  -->  Edit Distance: 0 , Probability: 0.00038091663998315265
+Word: heard  -->  Edit Distance: 0 , Probability: 7.5688682361630674e-06
+Noisy Word:  hard  --> Correct Word:  hard
+
+Noisy Word: at
+Possible Words:
+Word: at  -->  Edit Distance: 0 , Probability: 0.07060930630365535
+Noisy Word:  at  --> Correct Word:  at
+
+Noisy Word: work
+Possible Words:
+Word: work  -->  Edit Distance: 0 , Probability: 0.004349916744408758
+Noisy Word:  work  --> Correct Word:  work
+
+Corrected Sentence:
+<s> John Knightley was hard at work
+
+Correction Done...
